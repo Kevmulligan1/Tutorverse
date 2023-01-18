@@ -1,0 +1,1058 @@
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap'); 
+body{
+    background-color: rgba(211, 211, 211, 0.897);
+    margin-right: 0;
+}
+.wrapper{
+    font-family: 'Poppins';
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+
+
+/* Index page header section*/
+
+
+.home_background_img{
+    position: relative;
+    opacity: 70%;
+}
+.home_background_img img{
+    width: 100%;
+    height: 700px;
+}
+.home_page_header{
+
+    height: 700px;
+    overflow: hidden;
+  
+}
+.slogan{
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    margin-top: -800px;
+    transform: translate(-50%, -50%);
+    
+}
+.slogan h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 100px;
+    width: 100%;
+    background: linear-gradient(rgb(107, 2, 2), rgb(56, 3, 3));
+    background-size: 100%;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    
+}
+.home_page_text{
+    justify-content: center;
+   
+}
+
+.Tutorverse {
+    width: 600px;
+    margin-top: -650px;
+    position: absolute;
+    top: 45%;
+    left: 32%;
+}
+
+
+
+/* Navigation Bar */
+
+
+.logo{
+    height: 75px;
+    float: left;
+    padding-left: 35px;
+    margin-top: 10px;
+}
+
+
+.toggle-button {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+}
+
+.toggle-button .bar {
+    height: 3px;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+}
+nav {
+    width: 100%;
+    border-bottom: solid; 
+    padding-bottom: 10px;
+    height: 90px;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    background-color: rgb(116, 149, 177);
+}
+nav ul{
+    font-size: 21px;
+    margin-top: 35px;
+    white-space: nowrap;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+.last_two_pages{
+    display: flex;
+    flex-direction: row;
+}
+nav ul li {
+    position: relative;
+    padding-right: 10px;  
+}
+nav ul li ul {
+    display: none; 
+    position: absolute;
+    background-color: rgb(243, 255, 255);
+    padding-right: 10px;
+    transform: translateY(-27px);
+    height: 156px;
+}
+nav ul li:hover ul{
+   display: block;
+}
+nav ul li ul li {
+    padding-top: 17px;
+    transform: translateX(-40px);
+}
+nav ul li ul li a {
+    border-radius: 0px;    
+}
+.arrow_down{
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    margin-bottom: 4px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    background-color: rgb(243, 255, 255);
+    border-radius: 5px;
+    padding: 9px;
+}
+.pages a:hover{
+    background-color: darkgray;
+    color: lightgray;
+  
+}
+
+
+
+/* Service boxes section */
+.service_boxes_section{
+    background-color: rgb(17, 0, 170);
+    height: 640px;
+    width: 100%;
+    border-top: solid;
+    
+}
+.service_two_boxes{
+    height: 450px;
+    text-align: center;  
+}
+.service_boxes_header {
+    text-align: center;
+    justify-content: center;
+    height: 85px;
+    font-size: 30px;
+    width: 100%;
+    color:rgba(0, 0, 0, 0.897)
+}
+.service_two_boxes{
+    display: flex;
+    padding: 5px;
+    justify-content: center;
+}
+.service_left_box{
+    background-color:  rgb(241, 241, 241);
+    float: left;
+    text-align: center;
+    margin-right: 50px;
+    width: 500px;
+    border-radius: 5px;
+    box-shadow: 5px 5px;
+    border: solid;
+}
+
+.service_right_box{
+    background-color:  rgb(241, 241, 241);
+    text-align: center;    
+    width: 500px;
+    border-radius: 5px;
+    box-shadow: 5px 5px;
+    border: solid;
+    margin-left: 50px;
+}
+.service_two_boxes h5{
+    font-size: 17px;
+    width: 450px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.service_two_boxes h3{
+    font-size: 30px;
+}
+/* Filler section */
+
+
+.filler_section1{
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    background-color:rgb(235, 236, 255);
+    height: 400px;
+    border-top: solid;
+    border-bottom: solid;
+    display: flex;
+    margin-bottom: none;
+}
+.filler_section1 h2{
+    font-size: 60px;
+    height: 400px;
+    justify-content: center;
+    text-align: center;
+    float: left;
+    width: 90%;
+    margin-left: 30px;
+    background: linear-gradient(rgb(176, 178, 180), rgb(80, 76, 76));
+    background-size: 100%;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+.contact_link1{
+    height: 75px;
+    border-radius: 5px;
+    justify-content: center;
+    font-size: 25px;
+    width: 200px;
+    margin-left: 30%;
+    margin-bottom: 50px;
+    text-align: center;
+    float: left;
+    background-color: rgb(243, 255, 255);
+    border: solid;
+    border-color: rgb(134, 134, 134);
+  
+}
+.contact_link1 a{
+    text-decoration: none;
+    color: black;
+}
+.contact_link1:hover{
+    cursor: pointer;
+    background-color: darkgray;
+    color: lightgray;
+}
+.filler_pic1{
+    float: right;
+    height: 400px;
+}
+.filler_left1{
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+   
+    
+}
+
+
+/* Stats section */
+.stats_section{
+    display: flex;
+    justify-content: center;
+    height: 500px;
+    width: 100%;
+    text-align: center;
+    background-color: rgb(17, 0, 170);
+}
+
+.stats_section h3{
+    font-size: 30px;
+    transform: translateY(-30px);
+}
+.stats_section h1{
+    font-size: 80px;
+}
+.stat_one{
+    border-radius: 50%;
+    margin-top: 10px;
+    border: solid;
+    height: 300px;
+    width: 350px;
+    background-color:  rgb(241, 241, 241);
+}
+
+.stat_one:hover{
+    background-color:  rgb(189, 187, 187);
+    border-color: transparent;
+}
+.stat_two{
+    border-radius: 50%;
+    text-align: center;
+    border: solid;
+    height: 300px;
+    width: 350px;
+    transform: translateY(150px);
+    background-color:  rgb(241, 241, 241);
+    margin-left: 3%;
+    margin-right: 3%;
+}
+.stat_two h3{
+    width: 300px;
+    transform: translate(25px,-40px);
+}
+
+.stat_two:hover{
+    background-color:  rgb(189, 187, 187);
+    border-color: transparent;
+}
+.stat_three{
+    border-radius: 50%;
+    justify-content: center;
+    margin-top: 10px;
+    border: solid;
+    height: 300px;
+    width: 350px;
+    background-color:  rgb(241, 241, 241);
+    
+    
+}
+
+
+.stat_three:hover{
+    background-color:  rgb(189, 187, 187);
+    border-color: transparent;
+}
+
+
+/* My tutor list - tutor section*/ 
+
+
+.tutor-list{
+
+    width: 100%;
+    padding-top: 100px;
+    height: 680px;
+    background-color: rgb(17, 0, 170);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.list_A{
+    margin-left: 45px;
+}
+
+.individual-tutor{
+    background-color:  rgb(241, 241, 241);
+    height: 300px;
+    width: 350px;
+    margin-top: 5px;
+    margin-right: 50px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    border: solid;
+    border-width: 2.3px;
+    font-size: 16px;
+    box-shadow: 5px 5px;
+}
+
+.individual-tutor img{
+    transform: translate(85px,30px);
+    height: 150px;
+}
+.kevin_tutor img{
+    transform: translate(85px, 10px);
+}
+.arnav_tutor img{
+    transform: translate(85px, 10px);
+}
+
+
+/* Contact form */
+
+
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    margin-top: 80px;
+    background-color: rgb(17, 0, 170);
+}
+.contact-form h3{
+    font-size: 24px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+.contact-form input{
+    height: 35px;
+    margin-left: 25px;
+    border: solid;
+    border-color: rgb(238, 255, 255);
+    margin-top: 8px;
+    border-radius: 10px;
+    width: 40%;
+    align-items: center;
+    justify-content: center;
+}
+.contact-form input:focus{
+    outline: rgb(238, 255, 255);
+}
+.contact-form textarea{
+    height: 70px;
+    margin-left: 25px;
+    border: solid;
+    border-color: rgb(238, 255, 255);
+    margin-top: 8px;
+    border-radius: 10px;
+    margin-bottom: 8px;
+}
+.contact-form textarea:focus{
+    outline: rgb(238, 255, 255);
+}
+.contact-form button{
+    border: solid;
+    margin-left: 25px;
+    border-color: rgb(238, 255, 255);
+    border-radius: 10px;
+    height: 30px;
+}
+.contact-form button:focus{
+    outline: rgb(238, 255, 255);
+}
+.contact-form button:hover{
+    cursor: pointer;
+    background-color: darkgray;
+    color: lightgray;
+    font-weight: 750;
+}
+
+/* Origin  section */
+
+.origin_intro{
+    display: flex;
+    height: 700px;
+    background-color:rgb(235, 236, 255);
+}
+.origin_blurb{
+    border: solid;
+    margin-top: 80px;
+    border: black;
+    width: 600px;
+    padding-left: 50px;
+    text-justify: inter-word;
+}
+.origin_intro img{
+    width: 400px;
+    height: 500px;
+    margin-left: 150px;
+    float: right;
+    margin-top: 150px;
+}
+
+/* Why Choose us page */
+
+.why_choose_top_section{
+    height: 400px;
+    background-color:rgb(235, 236, 255);
+    
+}
+
+.why_choose_top_section h1{
+    margin-top: 100px;
+    margin-left: 40px;
+    font-size: 45px;
+}
+.why_choose_top_section p{
+    margin-left: 40px;
+    margin-right: 40px;
+    font-size: 18px;
+}
+
+/* Bottom section on every page */
+
+
+.bottom_section{
+    display: flex;
+    flex-direction: column;
+    border-top: solid;
+    border-color: black;
+    background-color:rgb(235, 236, 255);
+    height: 400px;
+    width: 100%;
+
+    position: absolute;
+   
+    
+}
+.header_section{
+    height: 100px;
+    width: 300px;
+    text-align: center;
+    margin-left: 40%;
+  
+}
+.bottom_section h1{
+   height: 100px;
+   width: 300px;
+   font-size: 40px;
+}
+.bot_sect_allthree{
+    display: flex;
+    height: 300px;
+    float: center;
+    margin-left: 7%;
+}
+.contact_info{
+    font-size: 15px;
+    height: 100px;
+    width: 480px;
+    margin-left: 50px;
+    margin-top: 100px;
+   
+}
+.contact_info h2{
+    width: 500px;
+}
+
+.bottom_section img{
+    width: 300px;
+    margin-top: 60px;
+    margin-bottom:50px;
+}
+.page_links{
+    display: flex;
+    height: 240px;
+    flex-direction: column;
+    margin-left: 120px;
+    
+}
+.page_links a{
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+    width: 150px;
+    font-size: 19px;
+}
+.page_links a:hover{
+    text-decoration: underline;
+    color:darkgray ;
+}
+/* services page */
+
+
+.services_main{
+    height: 440px;
+    background-color:rgb(235, 236, 255);
+    display: flex;
+}
+.services_left{
+    width: 50%;
+    text-align: center;
+}
+.services_right{
+    width: 50%;
+}
+.services_main h4{
+    font-size: 22px;
+    transform: translateY(100px);
+}
+.services_main h1{
+    transform: translateY(100px);
+    font-size: 37px;
+}
+.services_right img{
+    width: 100%;
+    height: 330px;
+    margin-top: 100px;
+    opacity: 80%;
+}
+
+.services_breakdown{
+    height: 680px;
+   
+
+}
+.services_breakdown h2{
+    font-size: 40px;
+    text-align: center;
+}
+
+.services_breakdown ul{
+    justify-content: center;
+    width: 70%;
+    margin-left: 12.5%;
+    font-size: 23px;
+}
+.services_breakdown ul li{
+    margin-top: 15px;
+}
+
+.parternship_mainsection{
+    height: 400px;
+    margin-top: 100px;
+    background-color:rgb(235, 236, 255);
+}
+
+.parternship_mainsection h1{
+    font-size: 50px;
+    margin-left: 25px;
+    
+}
+
+.parternship_mainsection p{
+    margin-left: 25px;
+    font-size: 22px ;
+    margin-right: 25px;
+}
+
+/* 1300 px width */
+
+@media (max-width: 1300px){
+    .service_two_boxes{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 100px;
+      
+    }
+    .service_boxes_section{
+        height: 850px;
+        justify-content: center;
+    }
+
+    .service_left_box{
+        margin-bottom: 15px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .service_right_box{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .filler_section1 h2{
+        font-size: 50px;
+    }
+    .services_breakdown{
+        height: 900px;
+    }
+    .slogan{
+        top: 41.5%;
+    }
+    .Tutorverse{
+        top: 41.2%;
+        left: 22.5%;
+    }
+
+ 
+}
+
+/* 1200 px width */
+
+@media (max-width: 1200px){
+    .bot_sect_allthree{
+        display: flex;
+        flex-direction: column;
+        margin-left: 30%;
+    }
+    .header_section{
+        margin-left: 30%;
+    }
+    .bottom_section{
+        height: 800px;
+    }
+    .contact_info{
+    margin-top: 50px;
+    }
+    .logo_bottom_section{
+        padding-left: 20px;
+    }
+    .parternship_mainsection h1{
+        text-align: center
+    }
+    .parternship_mainsection{
+        height: 500px;
+    }
+    .parternship_mainsection p{
+        text-align: center;
+        width: 90%;
+    }
+    .tutor-list{
+        display: flex;
+        flex-direction: column;
+        height: 1300px;
+    }
+    .list_A{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .list_B{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .list_C{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+}
+/* 1100 px width */
+@media (max-width: 1100px){
+    .filler_section1{
+        display:flex;
+        height: 630px;
+        flex-direction: column;
+
+    }
+   .contact_link1{
+      margin-left: auto;
+      margin-right: auto;
+   }
+   .filler_left1{
+      height: 330px;
+   }
+   .filler_pic1{
+    height: 300px;
+
+   }
+   .stats_section{
+    display: flex;
+    flex-direction: column;
+    height: 1000px;
+    
+}
+.stat_one{
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.stat_three{
+    margin-left: auto;
+    margin-right: auto;
+}
+.stat_two{
+    transform: translateY(0px);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    
+}
+.origin_intro{
+    display: flex;
+    flex-direction: column;
+    height: 1100px;
+    text-align: center;
+    
+
+}
+.origin_blurb{
+    width: 100%;
+    padding-left: 0;
+
+}
+.origin_blurb h1{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.origin_blurb p{
+    text-align: center;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.origin_intro img{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+}
+.why_choose_top_section{
+    height: 500px;
+}
+.why_choose_top_section h1{
+    text-align: center;
+  
+}
+.why_choose_top_section p{
+    width: 90%;
+    text-align: center;
+}
+.parternship_mainsection p{
+    font-size: 19px;
+}
+.slogan{
+    top: 32%;
+}
+.Tutorverse{
+    top: 32%;
+}
+}
+/* 952 px width */
+
+
+@media (max-width: 952px){
+    .logo{
+        height: 60px;
+        margin-top: 17px;
+        padding-bottom: 15px;
+    }
+    .service_boxes_header{
+        font-size: 22px;
+    }
+    .services_main{
+        display: flex;
+        flex-direction: column;
+        height: 750px;
+    }
+    .services_left{
+        width: 100%;
+        text-align: center;
+        
+    }
+    .services_left h1{
+        text-align: center;
+    }
+    .services_left h4{
+       width: 90%;
+       margin-left: auto;
+        margin-right: auto;
+    }
+    .services_right{
+        margin-left: 8%;
+
+    }
+    .services_right img{
+        height: 350px;
+        width: 170%
+    }
+    .services_breakdown{
+        height: 1000px;
+    }
+    .services_breakdown ul{
+        font-size: 20px;
+    }
+    .contact-form input{
+        width: 90%;
+        
+    }
+    
+}
+
+/* 858 px width */
+
+
+@media (max-width: 858px){
+
+    .bot_sect_allthree{
+        margin-left: 22%;
+    }
+    .header_section{
+        margin-left: 22%;
+    }
+    .origin_intro{
+        height: 1200px;
+    }
+    .why_choose_top_section{
+        height: 650px;
+    }
+    .parternship_mainsection{
+        height: 600px;
+    }
+    .contact-form h3{
+        font-size: 21px;
+    }
+    .slogan h1{
+        font-size: 90px;
+    }
+    .Tutorverse {
+        width: 500px;
+        left: 10%;
+    }
+    
+    nav ul{
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        background-color: rgb(243, 255, 255);
+        
+    }
+    nav ul li{
+        margin-top: 15px;
+        width: 100%;
+        height: 80px;
+        
+    }
+    .pages li{
+        text-align: center;
+    }
+    nav ul li a{
+        width: 100%;
+        padding-right: 100%;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        height: 80px;
+    }
+   .toggle-button{
+    display: flex;
+   }
+    
+    .pages a{
+        width: 100%;
+        height: 80px;
+        
+    }
+
+
+    .last_two_pages{
+        margin-top:190px;
+        display: flex;
+        flex-direction: column;
+    }
+    nav ul li ul{
+        display: block;
+        height: 10px;
+        margin-top: 40px;
+    }
+    nav ul li ul li{
+        margin-top: 0;
+        margin-bottom: 0px;
+        padding-bottom: 0;
+        padding-top: 5px;
+    }
+    nav ul.active {
+        display: flex;
+    }
+}
+
+/* 650 px width */
+
+@media (max-width: 650px){
+
+    .service_boxes_header{
+        font-size: 16px;
+    }
+    .why_choose_top_section{
+        height: 800px;
+    }
+    .service_two_boxes{
+        height: 470px;
+        
+    }
+    .service_left_box{
+        width: 300px;
+        margin-top: 240px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .service_right_box{
+        width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .service_two_boxes h5{
+        width: 250px;
+    }
+    .service_boxes_section{
+        height: 1200px;
+        width: 100%;
+    }
+    .filler_section1 h2{
+        margin-top: 60px;
+        font-size: 40px;
+    }
+    .filler_left1{
+        height: 350px;
+    }
+    .contact_link1{
+        margin-left: 28%;
+     }
+     
+     .filler_section1{
+       height: 570px; 
+     }
+     .bot_sect_allthree{
+        margin-left: 10%;
+    }
+    .header_section{
+        margin-left: 18%;
+    }
+    .contact_info{
+        font-size: 11px;
+        text-align: left;
+        margin-left:5%;
+    }
+    .origin_intro{
+        height: 1300px;
+    }
+    .origin_intro img{
+        height: 370px;
+        width:300px;
+    }
+    .services_main{
+        height: 900px;
+    }
+    .services_breakdown{
+        height: 1200px;
+    }
+    .services_breakdown ul{
+        font-size: 17px;
+    }
+
+    .parternship_mainsection p{
+        font-size: 17px;
+    }
+    .parternship_mainsection{
+        height: 700px;
+    }
+    .contact-form h3{
+        font-size: 19px;
+    }
+    .slogan h1{
+        font-size: 40px;
+    }
+    .slogan{
+        top: 30%;
+    }
+    .Tutorverse {
+        width: 300px;
+        margin-left: 14%;
+        top:28%;
+    }
+    .contact_info{
+        font-size: 9px;
+        }
+        .why_choose_top_section p{
+            font-size: 16px;
+        }
+}
+
+@media (max-width: 550px){
+   
+   .Tutorverse{
+    width: 270px;
+    margin-left:12%;
+   }
+}
